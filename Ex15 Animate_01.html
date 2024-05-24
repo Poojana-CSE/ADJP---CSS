@@ -1,0 +1,36 @@
+<html>
+<head>
+<title></title>
+<style>
+    .Container{
+		margin: 50px;
+        width:200px;
+        height:130px;
+        position: relative;
+        background: url("images/Ani_Back03.gif") no-repeat;background-size: cover;
+        -webkit-animation: animate 1s linear 2s infinite alternate; /*For  Chrome, Safari, Opera web browsers*/
+        animation: animate 2s linear 1s infinite alternate-reverse; /* For other browsers (or) Standard syntax */
+    }
+    @-webkit-keyframes animate {  /*For  Chrome, Safari, Opera web browsers*/
+        from {top: 10%;}
+        to {top: 90%;}
+    }
+    @keyframes animate {    /* For other browsers (or) Standard syntax */
+        from {top:0%;}
+        to {top: 70%;}
+    }
+    .backgr
+    {
+        animation:ChangeClr 1s infinite;
+    }
+    @keyframes ChangeClr
+    {
+        from{background-color:orange;}
+        to{background-color: blue;}
+    }
+</style>
+</head>
+<body class="backgr">
+    <div class="Container"></div>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<html>
+<head>
+<title></title>
+<style>
+    .backgr{
+        /*background: url(images/Ani_back01.gif) no-repeat,url(images/Ani_back02.gif) no-repeat,url(images/Ani_back03.gif) no-repeat; 
+        background: conic-gradient(red, yellow, green);*/
+        background: linear-gradient(orange,pink,violet,blue);
+        /*background: radial-gradient(red, green, blue);*/
+        /*background: repeating-conic-gradient(red 10%, yellow 20%);*/
+       /*background: linear-gradient(orange 400px, yellow, green);*/
+        /*background: repeating-radial-gradient(red, yellow 10%, green 15%);*/
+    }
+    .backgr1{
+        /*background: linear-gradient(pink, lightgreen, blue);*/
+    }
+    .acnt
+    {
+        accent-color:red;
+    }
+
+</style>
+</head>
+<body class="backgr" text="yellow">
+    <form>
+        <table>
+
+        <div style="line-height: 40px;">
+<tr>
+  <td>Text</td>
+  <td><input type="text" name="dt" class="backgr1" autocomplete="Jey"><br></td>
+</tr>   
+ <tr>
+  <td>Password</td>
+  <td><input type="password" name="dt" class="acnt"><br></td>
+</tr>
+<tr>
+ <td>Range</td>
+ <td><input type="range" name="dt" class="acnt"><br></td>
+</tr>
+<tr>
+    <td>Checkbox</td>
+    <td><input type="checkbox" name="c1" class="acnt"><br></td>
+</tr>
+<tr>
+    <td>Radio</td>
+    <td><input type="radio" name="c1" class="acnt"><br></td>
+</tr>
+<tr>
+    <td>Date</td>     
+    <td><input type="date" name="c1" max="30-10-2023" min="01-01-2000"><br></td>
+</tr>
+<tr>
+<td>DateTime</td>
+<td><input type="datetime-local" name="c1" class="acnt"><br></td>
+</tr>
+<tr>
+   <td> Month</td> 
+   <td><input type="month" name="c1" class="acnt"><br></td>
+</tr>   
+  <td>week</td> 
+       <td> <input type="week" name="c1" class="acnt"><br></td>
+ </tr>
+ <tr>     
+    Time        <input type="time" name="c1" class="acnt"><br>
+    Number      <input type="number" name="c1" min="1" max="100" value="10" step="2"><br>
+    Telphone    <input type="tel" name="c1" pattern="[0-9]{10}"><br>
+    Email       <input type="email" name="c1" class="acnt"><br>
+    Color       <input type="color" name="c1" class="acnt"><br>
+    Image       <input type="image" name="c1" src="images/Style2.png" alt="Save"><br>
+    URL         <input type="url" name="c1" class="acnt"><br>
+    File        <input type="file" name="c1" class="acnt"><br>
+    Search      <input type="search" name="c1" class="acnt"><br>
+    </div>
+    </form>
+</body>
+</html>

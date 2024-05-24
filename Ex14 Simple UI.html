@@ -1,0 +1,75 @@
+<html>
+<head>
+<style>
+
+.txtroundStyle 
+{
+    border: 2px solid Green;
+    border-radius: 12px;
+    background-color: #4CAF50;  
+    font-weight: bold;  
+    padding: 6px 18px;
+    color: white;
+}
+.labelStyle 
+{
+    font-weight: bold;
+    display: block;
+    width: 150px;
+    float: left;
+}
+.btnStyle 
+{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.btnStyle1 
+{
+    background-color: white;
+    text-align: center;
+    vertical-align: center;
+    width: 135px;
+    height: 36px;
+    font-size: 18px;
+    border: 2px solid #4CAF50;
+    border-radius: 12px;
+}
+.btnStyle1:hover 
+{
+    background-color: #168c61; /* Green */
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,100,0,0.2), 0 6px 20px 0 rgba(0,100,0,0.19);
+}
+
+.divstyle 
+{
+    background-color: #4CAF50;
+    color: white;
+    margin: 20px 0 20px 0;
+    padding: 20px;
+    border-radius: 9px;
+    width: 27%;
+} 
+
+</style>
+</head>
+<body>
+
+<form name="f1">
+<div id="dvPersonal" class="divstyle">
+
+  <label class="labelStyle">Student Name</label> <input type="text" class="txtroundStyle" name="name"> </input> <br><br>
+  <label class="labelStyle">Father Name</label> <input type="text" class="txtroundStyle" name="fname"> </input> <br><br>
+  <label class="labelStyle">Age</label> <input type="text" class="txtroundStyle" name="age"> </input><br><br>
+ <div>
+     <input type="button" class="btnStyle1" value="Next" name="btn2" onClick='alert("Welcome");'/>
+    </div>
+</di>
+</body>
+</html>

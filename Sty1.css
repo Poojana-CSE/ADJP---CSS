@@ -1,0 +1,46 @@
+	<style type="text/css">
+		
+		.style2
+		{
+			background: lightblue;
+			color: white;
+			text-align: center;
+			border-color: yellow;
+			border-radius: 15px;
+		}
+		.style1
+		{
+			color: green;
+			background: yellow;
+			border-width: 10px;
+			border-style: solid;
+			border-top-color: orange;
+			border-bottom-color: blue;
+			padding: 10px;
+
+		}
+		.style3
+		{
+			background: blue;
+			color: white;
+			text-align: left;
+			border-radius: 20px;
+		}
+		.style4
+		{
+			background: orange;
+			color: blue;
+			border-radius: 10px;
+			border-color: green;
+			border-width: 15px;
+			border-width: 5px;	
+		}
+		.style1:hover
+		{
+			background: limegreen;
+			color: yellow;
+			border-radius: 10px;
+			
+		}
+
+	</style>

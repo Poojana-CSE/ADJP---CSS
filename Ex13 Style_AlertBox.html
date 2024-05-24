@@ -1,0 +1,47 @@
+<html>
+   <head>
+      <style>
+         .alert 
+         {
+           padding: 20px;
+           background-color:#9370DB; /* Red */
+           color: white;
+           margin-bottom: 15px;
+           border-radius: 15px;
+           width: 50%;
+           transition:2.5s;
+          }
+         .closebtn
+         {
+           margin-left: 15px;
+           color: white;
+           font-weight: bold;
+           float: right;
+           font-size: 22px;
+           line-height: 20px;
+           cursor: pointer;
+           transition: 2s;
+         }
+         .closebtn:hover
+         {
+           color: red;
+         }
+         .alert:hover
+         {
+          background:#FFE4B5;
+          color: black;
+         }
+      </style>
+   </head>
+   <body style="background: linear-gradient(to left,pink, lightblue);">
+      <div class="alert">
+         <span class="openbtn" onclick="this.parentElement.style.display='none';">&times;</span>
+         Simple Message Box
+      </div>
+      <div class="alert">
+         <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>simple message box
+      </div>
+        
+
+   </body>
+ </html>

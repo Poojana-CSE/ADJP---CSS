@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+  <!--	<link rel="stylesheet" type="text/css" href="Sty1.css"> !-->
+  <style type="text/css">
+  	.marg
+  	{
+  		left: 10px;
+  		/*padding: 5px;*/
+  		padding-top: 10px;
+  		padding-left: 5px;
+  		padding-bottom: 10px;
+  		padding-right: 5px;
+		  margin:5px;
+
+  	}
+  	.fnt
+  	{
+  		color: blue;
+  		font-weight: 25pt;
+  		font-family: times new roman;
+  		background: yellow;
+  	}
+  	.bgfrmt
+  	{
+  		
+  		border-color: green;
+  		border-width: 3px;
+  		border-radius: 5px;
+  		background-color: darkmagenta;
+  		color: yellow;
+  	}	
+  	.brdr
+  	{
+  		border-width: 5px;
+  		border-style: dotted;
+  		/*border-style: dashed;
+  		border-style: solid;*/
+        border-radius: 25px;
+  		border-color: yellow;
+  		padding: 20px;
+  	}
+  	.imgs
+  	{
+
+  		border-radius: 50%;
+  		height: 50px;
+  		width: 50px;
+  		vertical-align: top;
+  		position: fixed;
+  	}
+  	.btn
+  	{
+  		background-color: yellow;
+  		color: red;
+  		border-top-left-radius: 15px;
+      	border-bottom-right-radius: 15px;
+  		border-width: 2px;
+  		border-color: darkslategray;
+  		height: 50px;
+  		width: 150px;
+  		align:left;
+  	}
+  	.btn:hover
+  	{
+  		background-color: pink;
+  		color: darkgreen;
+      border-radius: 15px;
+      font-weight: 20pt;
+
+  	}
+  	.txt
+  	{
+  		padding: 5px;
+  		text-align: left;
+  		color: red;
+  		background-color: lightyellow;
+  		font-size: 15pt;
+  		border-radius: 15px;
+  		width: 250px;
+  	}
+  	.mrq
+  	{
+  		background:darkolivegreen;
+  		color: white;
+  		font-size: 15pt;
+  		border-radius: 20px;
+  		height: 25px;
+  		vertical-align: middle;
+  		position: fixed;
+  		top: 0px;
+  	}
+  </style>
+</head>
+<body class="bgfrmt">
+	<img src="images/pic5.jpg" class="imgs">
+	<marquee class="mrq"> For More Deatails Dial : 7200001338 or write : cscperundurai@gmail.com</marquee>
+
+	<h1 align="center"> CSC Computer Education<br> Perundurai</h1>
+	<table style="width: 80%;align-self: right;"  >
+		<tr >
+			<td width="20%" valign="top"></td>
+			<td>     
+				<form name="frmStuInfo" class="bgfrmt" >
+				<table class="brdr marg">
+					<tr>
+						<td>Student Name</td>
+						<td><input type="text" name="txtname" placeholder="Enter Your name here" class="txt"></td>
+					<tr>
+						<td>Father Name</td>
+						<td><input type="text" name="txtFname" class="txt"></td>
+					<tr>
+						<td>Mother Name</td>
+						<td><input type="text" name="txtMname" class="txt"></td>
+					<tr>
+						<td>Gender</td>
+						<td>
+							<select name="drpGndr" class="txt">
+								<option>Male</option>
+								<option>Female</option>
+								<option>Transgender</option>
+							</select>
+						</td>
+					<tr>
+						<td>Date of Birth</td>
+						<td><input type="Date" name="txtname" class="txt"></td>
+					<tr>
+						<td>Qualification</td>
+						<td>
+							<select name='drpQuali' class="txt">
+								<option>Below 10th</option>
+								<option>10th</option>
+								<option>12th</option>
+								<option>UG</option>
+								<option>PG</option>
+							</select>
+						</td>
+					<tr>
+						<td>Address</td>
+						<td>
+							<textarea name="txtAddr" rows="4" class="txt"></textarea>
+						</td>
+					</tr>
+					<tr>
+				<td>Phone</td>
+				<td><input type="text" name="txtphone" class="txt"></td>
+				<tr>
+					<td>Email</td>
+					<td><input type="text" name="txtmail" class="txt"></td>
+				<tr>
+					<td> <input type="button" name="btnOk" value="Save" class="btn"></td>
+	               <td> <input type="button" name="btnCancel" value="Cancel" class="btn"></td>
+			</tr>	
+                                               </table>
+			</form>
+			</td>
+			<td width="20%"></td>
+		</tr>
+
+	</table>
+
+<p >Welcome</p>
+</body>
+</html>

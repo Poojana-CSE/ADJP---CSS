@@ -1,0 +1,77 @@
+<style type="text/css">
+		h1
+		{
+			background: lightgreen;
+			color:red;
+			font-size:120%;
+			text-align: center;
+			width: 50%;
+	
+		}
+		h2
+		{
+			background: lightpink;
+			color:blue;
+			font: 120%;
+		}		
+		p
+		{
+			font-size: 22pt;
+			border: 4px;
+			border-style: dotted;
+		}
+		/* Applying Styles using class */
+		.background1
+		{
+			background: Crimson;
+			color: GreenYellow;
+			border-bottom: 5px;
+			border-bottom-color: green;
+			border-bottom-style: dashed;
+		}
+		.background2
+		{
+			background: LimeGreen;
+			color: #B22222;
+			border: 8px;
+			border-style: solid;
+			border-color: orange;
+			border-radius: 15px;
+			padding: 10px;
+		}		
+		.background3
+		{
+			background: PaleGreen;
+			color: #4B0082;
+			border: 8px;
+			border-top-left-radius:  20px;
+			border-bottom-right-radius:  20px;
+			padding: 10px;
+			border:5px;
+			border-color: red;
+			border-style:solid;
+		}
+		.background4
+		{
+			background: SpringGreen;
+			color: #8B008B;
+		}
+		.background4:hover
+		{
+			background: SeaGreen;
+			color: #FF0000;
+		}
+		.background5
+		{
+			background: linear-gradient(to left,pink, lightblue);
+		}
+		.lineStyle1
+		{
+			border-top-left-radius:  20px;
+			border-bottom-right-radius:  20px;
+			padding: 10px;
+			border:5px;
+			border-color: red;
+			border-style:solid;
+		}			
+</style>
